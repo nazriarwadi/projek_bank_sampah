@@ -27,3 +27,6 @@ jobs:
 
     - name: Build APK
       run: flutter build apk
+
+    - name: Build App Bundle
+      run: flutter build appbundle
